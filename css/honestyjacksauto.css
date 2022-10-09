@@ -1,0 +1,87 @@
+header {
+    background-color: #5c5f58;
+    color: beige;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+}
+#carlogo{
+    filter: invert(100%);
+    margin-left: 10px;
+    margin-right: 70px;
+    width: 120px;
+}
+aside {
+    float: left;
+    margin-top: 7px;
+    margin-right: 10px;
+    width: 220px;
+    height: 590px;
+    color: beige;
+    background: #591c0b;
+    padding: 20px;
+}
+.contactUs{
+    width: 75%;
+    border: dashed beige 1px ;
+    padding: 10px;
+    margin: 5px;
+}
+#contactus{
+    width: 100px;
+}
+article {
+    float: left;
+    padding: 20px;
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 685px;
+    height: 590px;
+    color: beige;
+    background-color: #591c0b;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    background-color: #004e7c;
+    width: 75%;
+    padding: 20px;
+    margin: 5px;
+}
+.carpic{
+    margin-left: 10px;
+    margin-right: 70px;
+    width: 120px;
+}
+footer {
+    position: fixed;
+    padding: 20px 0px 0px 20px;
+    width: 945px;
+    bottom: 30px;
+    margin-top: -30px;
+    left: 25px;
+    height: 40px;
+    background: #5c5f58;
+    color: beige;
+}
+a:link {
+    color: lightgrey;
+}
+a:visited{
+    color: #004e7c;
+}
+@media (max-width: 1015px) {
+    header {
+        width: 100%;
+    }
+    aside, article {
+        width: 100%;
+        height: auto;
+    }
+    article {
+        height: 590px;
+    }
+}
